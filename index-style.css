@@ -34,6 +34,7 @@ nav ul li {
     line-height: 60px;
 }
 ul li a {
+    padding: 10px 20px;
     text-decoration: none;
     font-size: 24px;
     color: black;
