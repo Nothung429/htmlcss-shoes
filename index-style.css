@@ -40,17 +40,17 @@ ul li a {
 }
 
 /*------- sezione sfondo scarpe ------*/
-.shoe1 ,.shoe2 ,.shoe3 {
+#shoe1 ,#shoe2 ,#shoe3 {
     height: 100vh;
     position: relative;
 }
-.shoe1 {
+#shoe1 {
     background-color: red;
 }
-.shoe2 {
+#shoe2 {
     background-color: green;
 }
-.shoe3 {
+#shoe3 {
     background-color: yellow;
 }
 
@@ -70,10 +70,10 @@ h2 {
     padding: 0 10%;
     width: 100%;
 }
-.shoe1 h2 ,.shoe2 h2 {
+#shoe1 h2 ,#shoe2 h2 {
     color: yellow;
 }
-.shoe3 h2 {
+#shoe3 h2 {
     color: green;
 }
 
