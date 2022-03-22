@@ -9,7 +9,33 @@ body {
 }
 
 /*------- sezione header scarpe ------*/
-
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+nav {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+nav ul li {
+    margin-left: 20px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
 
 /*------- sezione sfondo scarpe ------*/
 .shoe1 ,.shoe2 ,.shoe3 {
