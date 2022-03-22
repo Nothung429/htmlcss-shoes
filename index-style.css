@@ -16,6 +16,8 @@ header {
     left: 0;
     z-index: 10;
 }
+
+/*------- sezione pulsanti di navigazione scarpe ------*/
 nav {
     position: absolute;
     top: 20px;
@@ -26,7 +28,6 @@ nav ul li {
     display: inline-block;
     height: 60px;
     width: 60px;
-    border: 2px solid black;
     background-color: white;
     border-radius: 50%;
     text-align: center;
@@ -34,6 +35,7 @@ nav ul li {
 }
 ul li a {
     text-decoration: none;
+    font-size: 24px;
     color: black;
 }
 
