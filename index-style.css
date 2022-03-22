@@ -4,11 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+/*------- sezione header scarpe ------*/
+
+
+/*------- sezione sfondo scarpe ------*/
 .shoe1 ,.shoe2 ,.shoe3 {
     height: 100vh;
     position: relative;
@@ -23,6 +26,7 @@ body {
     background-color: yellow;
 }
 
+/*------- sezione scarpe ------*/
 section {
     position: absolute;
     top: 50%;
@@ -30,9 +34,14 @@ section {
     transform: translate(-50%,-50%);
 }
 h2 {
+    width: inherit;
     text-transform: uppercase;
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
+}
+.one  {
+    padding: 0 10%;
+    width: 100%;
 }
 .shoe1 h2 ,.shoe2 h2 {
     color: yellow;
@@ -40,3 +49,5 @@ h2 {
 .shoe3 h2 {
     color: green;
 }
+
+
