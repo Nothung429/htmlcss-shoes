@@ -4,8 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 /*------- sezione header scarpe ------*/
@@ -18,23 +21,24 @@ header {
 }
 
 /*------- sezione pulsanti di navigazione scarpe ------*/
-nav {
+.main-nav li ,.main-nav li a {
+    display: inline-block;
+}
+.main-nav {
     position: absolute;
     top: 20px;
-    right: 10px;
+    right: 20px;
 }
-nav ul li {
+.main-nav li {
     margin-left: 20px;
-    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+}
+.main-nav li a {
     height: 60px;
     width: 60px;
     background-color: white;
     border-radius: 50%;
-    text-align: center;
-    line-height: 60px;
-}
-ul li a {
-    padding: 10px 20px;
     text-decoration: none;
     font-size: 24px;
     color: black;
@@ -65,9 +69,9 @@ section {
 h2 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
-.one  {
+.shoe-img  {
     padding: 0 10%;
     width: 100%;
 }
